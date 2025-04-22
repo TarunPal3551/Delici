@@ -20,7 +20,7 @@
 :root {
 
     /* #f25630 in decimal RGB */
---main-color: #48101a;
+--main-color: rgb(255,255,255);
 
   /* #ffffff in decimal RGB */
   --white-color:rgb(255,255,255);
@@ -29,7 +29,7 @@
   --color-one: rgb(167,167,167);
 
    /* #0e0d0b in decimal RGB */
-  --color-two:#48101a;
+  --color-two: #48101a;
 
   /* #595653 in decimal RGB */
   --color-three: rgb(89,86,83);
@@ -44,7 +44,7 @@
   --color-six: #48101a;
 
   /* #151616 in decimal RGB */
-  --color-seven: #48101a;
+  --color-seven: r#48101a;
 
   /* #121111 in decimal RGB */
   --color-eight: #48101a;
