@@ -1,4 +1,4 @@
-/* Delici - Restaurants HTML Template */
+/* OZLER DONER - OUR EYES ON YOUR ESSENCE */
 
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Forum&display=swap');
@@ -29,25 +29,25 @@
   --color-one: rgb(167,167,167);
 
    /* #0e0d0b in decimal RGB */
-  --color-two: rgb(14,13,11);
+  --color-two:#48101a;
 
   /* #595653 in decimal RGB */
   --color-three: rgb(89,86,83);
 
   /* #171819 in decimal RGB */
-  --color-four: rgb(23,24,25);
+  --color-four: #48101a;
 
   /* #0e0d0c in decimal RGB */
-  --color-five: rgb(14,13,12);
+  --color-five: #48101a;
 
   /* #1a1b1c in decimal RGB */
-  --color-six: rgb(26,27,28);
+  --color-six: #48101a;
 
   /* #151616 in decimal RGB */
-  --color-seven: rgb(21,22,22);
+  --color-seven: #48101a;
 
   /* #121111 in decimal RGB */
-  --color-eight: rgb(18,17,17);
+  --color-eight: #48101a;
 
   /* #ffffff in decimal RGBA */
   --white-color-opacity:rgba(255,255,255,0.80);
@@ -959,7 +959,6 @@ img{
     -moz-appearance:  none;
     -ms-appearance:  none;
     appearance:  none;
-    background-image: ;
     background-position: right center;
     background-repeat: no-repeat;
     cursor: pointer;

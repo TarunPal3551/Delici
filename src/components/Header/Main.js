@@ -56,7 +56,7 @@ function Main() {
             <section className={`hidden-bar ${active && "visible-sidebar"}`} >
                 <div className="inner-box">
                     <div className="cross-icon hidden-bar-closer" onClick={() => setActive(false)} ><span className="far fa-close" onClick={() => setActive(false)} > </span></div>
-                    <div className="logo-box"><Link to="/" title="Delici - Restaurants HTML Template"><img src={logo} alt="" title="Delici - Restaurants HTML Template" />
+                    <div className="logo-box"><Link to="/" title="OZLER DONER - OUR EYES ON YOUR ESSENCE"><img src={logo} alt="" title="OZLER DONER - OUR EYES ON YOUR ESSENCE" />
                     </Link></div>
 
                     <div className="side-menu">
@@ -153,7 +153,7 @@ function Main() {
                                 </div>
 
                                 <div className="logo-box">
-                    <div className="logo"><Link to="/" title="Delici - Restaurants React Template"><img src={logonew} alt="Delici-logo" title="Delici - Restaurants HTML Template"  /></Link></div>
+                    <div className="logo"><Link to="/" title="OZLER DONER - OUR EYES ON YOUR ESSENCE"><img src={logonew} alt="Delici-logo" title="OZLER DONER - OUR EYES ON YOUR ESSENCE"  /></Link></div>
                                 </div>
 
                                 <div className="nav-box clearfix">

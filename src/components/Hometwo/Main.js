@@ -20,7 +20,7 @@ function Main() {
             <section className="hidden-bar">
                 <div className="inner-box">
                     <div className="cross-icon hidden-bar-closer"><span className="far fa-close"></span></div>
-                    <div className="logo-box"><Link to="/" title="Delici - Restaurants React Template"><img src={SidebarLogo} alt="logo" title="Delici - Restaurants HTML Template" /></Link></div>
+                    <div className="logo-box"><Link to="/" title="OZLER DONER - OUR EYES ON YOUR ESSENCE"><img src={SidebarLogo} alt="logo" title="OZLER DONER - OUR EYES ON YOUR ESSENCE" /></Link></div>
 
 
                     <div className="side-menu">

@@ -55,7 +55,7 @@ function Main() {
             <section className={`hidden-bar ${active && "visible-sidebar"}`} onClick={() => setActive(false)} >
                 <div className="inner-box">
                     <div className="cross-icon hidden-bar-closer" onClick={() => setActive(false)} ><span className="far fa-close"> </span></div>
-                    <div className="logo-box"><Link to="/" title="Delici - Restaurants HTML Template"><img src={logo} alt="" title="Delici - Restaurants HTML Template" />
+                    <div className="logo-box"><Link to="/" title="OZLER DONER - OUR EYES ON YOUR ESSENCE"><img src={logo} alt="" title="OZLER DONER - OUR EYES ON YOUR ESSENCE" />
                     </Link></div>
 
                     <div className="side-menu">

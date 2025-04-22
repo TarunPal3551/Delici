@@ -14,12 +14,12 @@ function Main() {
                             <div className="footer-col info-col col-lg-6 col-md-12 col-sm-12">
                                 <div className="inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     <div className="content">
-                                        <div className="logo"><Link to="/" title="Delici - Restaurants HTML Template"><img src={logonew} alt="" title="Delici - Restaurants HTML Template" /></Link></div>
+                                        <div className="logo"><Link to="/" title="OZLER DONER - OUR EYES ON YOUR ESSENCE"><img src={logonew} alt="" title="OZLER DONER - OUR EYES ON YOUR ESSENCE" /></Link></div>
                                         <div className="info">
                                             <ul>
                                                 <li>Restaurant St, Delicious City, London 9578, UK</li>
-                                                <li><Link to="mailto:booking@domainname.com">booking@domainname.com</Link></li>
-                                                <li><Link to="tel:+88-123-123456">Booking Request : +88-123-123456</Link></li>
+                                                <li><Link to="mailto:booking@domainname.com">ozlerdoner.qa@gmail.com</Link></li>
+                                                <li><Link to="tel:+88-123-123456">Booking Request : +-123-123456</Link></li>
                                                 <li>Open : 09:00 am - 01:00 pm</li>
                                             </ul>
                                         </div>
@@ -75,7 +75,7 @@ function Main() {
 
                 <div className="footer-bottom">
                     <div className="auto-container">
-                        <div className="copyright">&copy; 2022 Restaurt. All Rights Reserved   |    Crafted by <Link to="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</Link></div>
+                        <div className="copyright">&copy; 2025 OZLER. All Rights Reserved </div>
                     </div>
                 </div>
 
