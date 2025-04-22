@@ -24,11 +24,13 @@ function Story() {
                                         <img src={require('../../assets/images/icons/separator.svg').default} alt='mySvgImage' />
                                     </div>
                                     <h2>Every Flavor Tells a Story</h2>
-                                    <div className="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into.</div>
+                    <div className="text">Ozler Döner brings you bold and authentic tastes of Turkish cuisine crafted with passion and care. Each bite tells the story of timeless tradition, seasoned recipes, and rich culture passed down through generations. Our dishes reflect not only flavors, but also the warmth of Turkish hospitality and love for food.</div>
                                 </div>
                                 <div className="booking-info">
                                     <div className="bk-title">Book Through Call</div>
-                                    <div className="bk-no"><Link to="tel:+80-400-123456">+80 (400) 123 4567</Link></div>
+                                    <div className="bk-no">
+                                                 <Link to="tel:+97477111504">+974 7711 1504</Link>
+                                               </div>
                                     <div className="link-box">
                                         <Link to="/about" className="theme-btn btn-style-two clearfix">
                                             <span className="btn-wrap">

@@ -32,7 +32,7 @@ function Specialdish() {
                                     </div>
 
                                     <h2>Lobster Tortellini</h2>
-                                    <div className="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type.</div>
+                    <div className="text">Tender pasta parcels filled with rich lobster meat, gently cooked to perfection. This signature dish blends the elegance of fine seafood with traditional Italian craftsmanship, creating a flavor experience that’s both luxurious and unforgettable.</div>
                                 </div>
 
                                 <div className="price"><span className="old">$40.00</span> <span className="new">$20.00</span></div>

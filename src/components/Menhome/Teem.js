@@ -42,7 +42,7 @@ function Teem() {
                                 </div>
                                 <h3><Link to="#">Willium Joe</Link></h3>
                                 <div className="designation">Master chef</div>
-                                <div className="text desc">Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</div>
+                  <div className="text desc">A precision-obsessed innovator, where every sauce is science and every garnish is geometry on the plate.</div>
                             </div>
                         </div>
 
@@ -65,7 +65,7 @@ function Teem() {
                                 </div>
                                 <h3><Link to="#">Steave Den</Link></h3>
                                 <div className="designation">Master chef</div>
-                                <div className="text desc">Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</div>
+                  <div className="text desc"> The alchemist of spices, crafting bold, soulful dishes that tell a story with every bite.</div>
                             </div>
                         </div>
 
@@ -86,7 +86,7 @@ function Teem() {
                                 </div>
                                 <h3><Link to="#">Lily Sopy</Link></h3>
                                 <div className="designation">Master chef</div>
-                                <div className="text desc">Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</div>
+                  <div className="text desc">A culinary maestro who transforms fresh ingredients into unforgettable masterpieces, blending tradition with bold creativity.</div>
                             </div>
                         </div>
                     </div>

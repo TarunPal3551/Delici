@@ -38,7 +38,7 @@ function Offer() {
               <img src={require('../../assets/images/icons/separator.svg').default} alt='mySvgImage' />
             </div>
             <h2>We Offer Top Notch</h2>
-            <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever.</div>
+            <div className="text">At Ozler Döner, we bring you an authentic taste of Turkey right here in Qatar. Our commitment to top-notch quality shines through in every bite — from our juicy, slow-roasted döner to our freshly baked bread and hand-crafted sauces. Each dish is prepared using traditional recipes and the finest ingredients to ensure a flavorful, satisfying experience. Whether you’re dining in or taking away, Ozler Döner serves up bold flavors, warm hospitality, and unforgettable meals — every time.</div>
           </div>
           <div className="row justify-content-center clearfix">
             {offers.map((offer, index) => (

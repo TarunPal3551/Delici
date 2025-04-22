@@ -11,22 +11,22 @@ function Whyus() {
     {
       icon: whyiconone,
       title: 'Hygienic Food',
-      text: 'Lorem Ipsum is simply dummy printing and typesetting.',
+      text: 'At Ozler Döner, excellence begins with impeccable hygiene. Every ingredient is carefully selected, and every preparation follows the highest standards of cleanliness — ensuring not just a meal, but a refined dining experience you can trust.',
     },
     {
       icon: whyicontwo,
       title: 'Fresh Environment',
-      text: 'Lorem Ipsum is simply dummy printing and typesetting.',
+      text: 'Indulge in a setting where elegance meets comfort. Our thoughtfully designed interiors offer a serene and sophisticated atmosphere — the perfect backdrop for enjoying gourmet Turkish cuisine in style.',
     },
     {
       icon: whyiconthree,
       title: 'Skilled Chefs',
-      text: 'Lorem Ipsum is simply dummy printing and typesetting.',
+      text: 'Behind every exquisite dish is a team of masterful chefs. With a deep respect for tradition and an eye for perfection, they blend artistry and expertise to present flavors that are both authentic and extraordinary.',
     },
     {
       icon: whyiconfour,
       title: 'Event & Party',
-      text: 'Lorem Ipsum is simply dummy printing and typesetting.',
+      text: 'Host your special occasions in an ambiance of tasteful luxury. From intimate gatherings to grand celebrations, Ozler Döner offers bespoke event experiences, curated menus, and flawless service to make your moments unforgettable.',
     },
   ];
 
