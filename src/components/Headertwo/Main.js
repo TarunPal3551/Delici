@@ -122,7 +122,7 @@ function Main() {
                             <div className="inner clearfix">
                                 <div className="top-left clearfix">
                                     <ul className="top-info clearfix">
-                                        <li><i className="icon far fa-map-marker-alt"></i> Restaurant St, Delicious City, London 9578, UK</li>
+                      <li><i className="icon far fa-map-marker-alt"></i> Restaurant St, OZLER DONER City, London 9578, UK</li>
                                         <li><i className="icon far fa-clock"></i> Daily : 8.00 am to 10.00 pm</li>
                                     </ul>
                                 </div>
@@ -142,7 +142,9 @@ function Main() {
                             <div className="main-box clearfix">
 
                                 <div className="logo-boxtwo">
-                                    <div className="logo"><Link to="/hometwo" title="Delici - Restaurants React Template"><img src={logonew} alt="" title="Delici - Restaurants React Template" /></Link></div>
+                    <div className="logo"><Link to="/hometwo" title="OZLER DONER -
+
+“OUR EYES ON YOUR ESSENCE”"><img src={logonew} alt="" title="OZLER DONER" /></Link></div>
                                 </div>
 
                                 <div className="nav-boxtwo clearfix">

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/images/resource/sidebar-logo.png'
-import logonew from '../../assets/images/logo.png'
+import logonew from '../../assets/images/logo2.png'
 import imgone from '../../assets/images/resource/menu-image-1.jpg'
 import imgtwo from '../../assets/images/resource/menu-image-2.jpg'
 import Imgthree from '../../assets/images/resource/menu-image-3.jpg'
@@ -153,7 +153,7 @@ function Main() {
                                 </div>
 
                                 <div className="logo-box">
-                                    <div className="logo"><Link to="/" title="Delici - Restaurants React Template"><img src={logonew} alt="" title="Delici - Restaurants HTML Template" /></Link></div>
+                    <div className="logo"><Link to="/" title="Delici - Restaurants React Template"><img src={logonew} alt="Delici-logo" title="Delici - Restaurants HTML Template"  /></Link></div>
                                 </div>
 
                                 <div className="nav-box clearfix">
