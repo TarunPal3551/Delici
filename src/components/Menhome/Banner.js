@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Slideone from '../../assets/images/main-slider/slider-1.jpg';
-import Slidetwo from '../../assets/images/main-slider/slider-2.jpg';
-import Slidethree from '../../assets/images/main-slider/slider-3.jpg';
+import Slideone from '../../assets/images/main-slider/slider-1.jpeg';
+import Slidetwo from '../../assets/images/main-slider/slider-2.jpeg';
+import Slidethree from '../../assets/images/main-slider/slider-3.jpeg';
 import bookicon1 from '../../assets/images/resource/book-icon-1.png';
 import 'swiper/swiper.min.css';
 import SwiperCore, { Navigation } from 'swiper';
@@ -24,38 +24,75 @@ function Banner() {
             <div className="banner-container">
                 <div className="banner-slider">
                     <div className="swiper-wrapper">
-                        {[Slideone, Slidetwo, Slidethree].map((image, index) => (
-                            <SwiperSlide key={index} className="swiper-slide slide-item img-fluid" style={{ backgroundImage: `url(${image})` }}>
-                                <div className="auto-container">
-                                    <div className="content-box">
-                                        <div className="content">
-                                            <div className="clearfix">
-                                                <div className="inner">
-                                                    <div className="subtitle">
-                                                        <span>delightful experience</span>
-                                                    </div>
-                                                    <div className="pattern-image">
-                                                        <img src={require('../../assets/images/icons/separator.svg').default} alt='mySvgImage' />
-                                                    </div>
-                                                    <h1><span>{index === 0 ? 'Flavors Inspired by' : index === 1 ? 'Where every flavor' : 'For the love of'}<br />{index === 0 ? 'the Seasons' : index === 1 ? 'tells a story' : 'delicious food'}</span></h1>
-                                                    <div className="text">Come with family & feel the joy of mouthwatering food</div>
-                                                    <div className="links-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                                        <div className="link">
-                                                            <Link to="#" className="theme-btn btn-style-two clearfix">
-                                                                <span className="btn-wrap">
-                                                                    <span className="text-one">view our menu</span>
-                                                                    <span className="text-two">view our menu</span>
-                                                                </span>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                        ))}
+                    {[Slideone, Slidetwo, Slidethree].map((image, index) => (
+  <SwiperSlide key={index} className="swiper-slide slide-item img-fluid" style={{ backgroundImage: `url(${image})` }}>
+    <div className="auto-container">
+      <div className="content-box">
+        <div className="content">
+          <div className="clearfix">
+            <div className="inner">
+              <div className="subtitle">
+                <span style={{
+                  color: '#fff',
+                  backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                  padding: '4px 8px',
+                  borderRadius: '6px',
+                  textShadow: '2px 2px 8px rgba(0, 0, 0, 1)'
+                }}>delightful experience</span>
+              </div>
+              <div className="pattern-image">
+                <img src={require('../../assets/images/icons/separator.svg').default} alt='mySvgImage' />
+              </div>
+              <h1>
+                <span style={{
+                  color: '#fff',
+                  backgroundColor: 'rgba(0, 0, 0, 0.6)',
+                  padding: '6px 10px',
+                  borderRadius: '8px',
+                  textShadow: '3px 3px 10px rgba(0, 0, 0, 1)'
+                }}>
+                  {index === 0 ? 'Flavors Inspired by' : index === 1 ? 'Where every flavor' : 'For the love of'}
+                  <br />
+                  {index === 0 ? 'the Seasons' : index === 1 ? 'tells a story' : 'delicious food'}
+                </span>
+              </h1>
+              <div className="text" style={{
+                color: '#fff',
+                backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                padding: '5px 10px',
+                borderRadius: '6px',
+                textShadow: '2px 2px 6px rgba(0, 0, 0, 1)'
+              }}>
+                Come with family & feel the joy of mouthwatering food
+              </div>
+              <div className="links-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div className="link">
+                <Link to="#" className="theme-btn btn-style-two clearfix" style={{
+  backgroundColor: '#fff',
+  color: '#48101a',
+  border: '2px solid #48101a',
+  fontWeight: 'bold',
+  padding: '12px 24px',
+  borderRadius: '8px',
+  textShadow: '1px 1px 2px rgba(0,0,0,0.2)'
+}}>
+  <span className="btn-wrap">
+    <span className="text-one" style={{ color: '#48101a' }}>view our menu</span>
+    <span className="text-two" style={{ color: '#48101a' }}>view our menu</span>
+  </span>
+</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </SwiperSlide>
+))}
+
+
+
                     </div>
                 </div>
             </div>

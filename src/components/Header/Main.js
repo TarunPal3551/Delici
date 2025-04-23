@@ -56,8 +56,20 @@ function Main() {
       <section className={`hidden-bar ${active && "visible-sidebar"}`} >
         <div className="inner-box">
           <div className="cross-icon hidden-bar-closer" onClick={() => setActive(false)} ><span className="far fa-close" onClick={() => setActive(false)} > </span></div>
-          <div className="logo-box"><Link to="/" title="OZLER DONER - OUR EYES ON YOUR ESSENCE"><img src={logo} alt="" title="OZLER DONER - OUR EYES ON YOUR ESSENCE" />
-          </Link></div>
+          <div className="main-logo" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '0px 0' }}>
+  <Link to="/" title="OZLER DONER - OUR EYES ON YOUR ESSENCE">
+    <img
+      src={logo}
+      alt="Ozler Doner"
+      title="OZLER DONER - OUR EYES ON YOUR ESSENCE"
+      style={{
+        width: '400px',
+        height: '200px',
+        objectFit: 'contain'
+      }}
+    />
+  </Link>
+</div>
 
           <div className="side-menu">
             <ul className="navigation clearfix">
@@ -102,145 +114,129 @@ function Main() {
               <li><Link to="/contact" onClick={() => setActive(false)}> Contact </Link></li>
             </ul>
           </div>
-
-          <h2>Visit Us</h2>
-          <ul className="info">
-            <li>Al Matar St, Doha Delights, <br /> Near Souq Waqif, Doha 12345, Qatar </li>
-            <li>Open: 9.30 am - 2.30pm</li>
-            <li><Link to="mailto:ozlerdoner.qa@gmail.com">ozlerdoner.qa@gmail.com</Link></li>
-          </ul>
-          <div className="separator"><span></span></div>
           <div className="booking-info">
             <div className="bk-title">Booking request</div>
             <div className="bk-no">
                           <Link to="tel:+97477111504">+974 7711 1504</Link>
                         </div>
           </div>
+          <div className="separator"><span></span></div>
+          <h2>Visit Us</h2>
+          <ul className="info">
+            <li>Al Matar St, Doha Delights, <br /> Near Souq Waqif, Doha 12345, Qatar </li>
+            <li>Open: 9.30 am - 2.30pm</li>
+            <li><Link to="mailto:ozlerdoner.qa@gmail.com">ozlerdoner.qa@gmail.com</Link></li>
+          </ul>
+          
+          
 
         </div>
       </section>
       {Nav &&
-        <header className={`main-header ${scrolled && "fixed-header"} header-down`}>
-          <div className="header-top">
-            <div className="auto-container">
-              <div className="inner clearfix">
-                <div className="top-left clearfix">
-                  <ul className="top-info clearfix">
-                    <li><i className="icon far fa-map-marker-alt"></i>Al Matar St, Doha Delights, Near Souq Waqif, Doha 12345, Qatar </li>
-                    <li><i className="icon far fa-clock"></i> Daily : 8.00 am to 10.00 pm</li>
-                  </ul>
-                </div>
-                <div className="top-right clearfix">
-                  <ul className="top-info clearfix">
-                    <li><Link to="tel:+974 7711 1504"><i className="icon far fa-phone"></i> +974 7711 1504</Link> </li>
-                    <li><Link to="mailto:ozlerdoner.qa@gmail.com"><i className="icon far fa-envelope"></i> ozlerdoner.qa@gmail.com</Link></li>
-                  </ul>
-                </div>
-              </div>
+  <header className={`main-header ${scrolled && "fixed-header"} header-down`} style={{ backgroundColor: '#48101a' }}>
+    <div className="header-top" style={{ backgroundColor: '#48101a', color: '#ffffff' }}>
+      <div className="auto-container">
+        <div className="inner clearfix">
+          <div className="top-left clearfix">
+            <ul className="top-info clearfix" style={{ color: '#ffffff', listStyle: 'none', margin: 0, padding: 0 }}>
+              <li>
+                <i className="icon far fa-map-marker-alt" style={{ color: '#ffffff', marginRight: '6px' }}></i>
+                Al Matar St, Doha Delights, Near Souq Waqif, Doha 12345, Qatar
+              </li>
+              <li style={{ marginLeft: '20px' }}>
+                <i className="icon far fa-clock" style={{ color: '#ffffff', marginRight: '6px' }}></i>
+                Daily : 8.00 am to 10.00 pm
+              </li>
+            </ul>
+          </div>
+          <div className="top-right clearfix">
+            <ul className="top-info clearfix" style={{ color: '#ffffff', listStyle: 'none', margin: 0, padding: 0 }}>
+              <li>
+                <Link to="tel:+97477111504" style={{ color: '#ffffff', fontWeight: '600' }}>
+                  <i className="icon far fa-phone" style={{ color: '#ffffff', marginRight: '6px' }}></i> +974 7711 1504
+                </Link>
+              </li>
+              <li style={{ marginLeft: '20px' }}>
+                <Link to="mailto:ozlerdoner.qa@gmail.com" style={{ color: '#ffffff', fontWeight: '600' }}>
+                  <i className="icon far fa-envelope" style={{ color: '#ffffff', marginRight: '6px' }}></i> ozlerdoner.qa@gmail.com
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="header-upper header-fixed" style={{ backgroundColor: '#48101a' }}>
+      <div className="auto-container">
+        <div className="main-box d-flex justify-content-between align-items-center flex-wrap">
+
+          <div className="links-box clearfix">
+            <div className="nav-toggler">
+              <button className="hidden-bar-opener">
+                <span className="hamburger" onClick={() => setActive(true)}>
+                  <span className="top-bun" style={{ backgroundColor: '#ffffff' }}></span>
+                  <span className="meat" style={{ backgroundColor: '#ffffff' }}></span>
+                  <span className="bottom-bun" style={{ backgroundColor: '#ffffff' }}></span>
+                </span>
+              </button>
             </div>
           </div>
 
-          <div className="header-upper header-fixed" >
-            <div className="auto-container">
-              <div className="main-box d-flex justify-content-between align-items-center flex-wrap">
-
-                <div className="links-box clearfix">
-                  <div className="nav-toggler">
-                    <button className="hidden-bar-opener">
-                      <span className="hamburger" onClick={() => setActive(true)}>
-                        <span className="top-bun"></span>
-                        <span className="meat"></span>
-                        <span className="bottom-bun"></span>
-                      </span>
-                    </button>
-                  </div>
-                </div>
-
-                <div className="logo-box">
-                  <div className="logo"><Link to="/" title="OZLER DONER - OUR EYES ON YOUR ESSENCE"><img src={logonew} alt="Delici-logo" title="OZLER DONER - OUR EYES ON YOUR ESSENCE" /></Link></div>
-                </div>
-
-                <div className="nav-box clearfix">
-
-                  <div className="nav-outer clearfix">
-                    <nav className="main-menu">
-                      <ul className="navigation clearfix">
-                        <li className="current dropdown"><Link to="/">Home</Link>
-                          {/* <ul>
-                            <li> <Link to="/hometwo">Home 1 Left Header</Link></li>
-                            <li> <Link to="/">Home 1 Center Header</Link></li>
-                            <li> <Link to="/homethree">Home 3 Video Hero</Link></li>
-                          </ul> */}
-                        </li>
-                        <li className="dropdown has-mega-menu"><Link to="/menu">Menus</Link>
-                          {/* <ul>
-                            <li>
-                              <div className="mega-menu">
-                                <div className="menu-inner">
-                                  <div className="auto-container">
-                                    <div className="row clearfix">
-                                      <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                        <div className="image"><Link to="/menuone"><img src={imgone} alt="" /></Link></div>
-                                        <div className="title"><Link to="/menuone">Menu list 1</Link></div>
-                                      </div>
-                                      <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                        <div className="image"><Link to="/menutwo"><img src={imgtwo} alt="" /></Link></div>
-                                        <div className="title"><Link to="menutwo">Menu list 2</Link></div>
-                                      </div>
-                                      <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                        <div className="image"><Link to="/menuthree"><img src={Imgthree} alt="" /></Link></div>
-                                        <div className="title"><Link to="menuthree">Menu list 3</Link></div>
-                                      </div>
-                                      <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                        <div className="image"><Link to="/menufour"><img src={Imgfour} alt="" /></Link></div>
-                                        <div className="title"><Link to="/menufour">Menu list 4</Link></div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-                          </ul> */}
-                        </li>
-                        <li><Link to="/about">About Us</Link></li>
-                        <li><Link to="/ourchefs">Our chefs</Link></li>
-                        <li className="dropdown"><Link to="/">Pages</Link>
-                          {/* <ul>
-                            <li> <Link to="#">Dropdown Menu 1</Link></li>
-                            <li> <Link to="#">Dropdown Menu 2</Link></li>
-                            <li> <Link to="#">Dropdown Menu 3</Link></li>
-                            <li className="dropdown"><Link to="#">Dropdown Menu 4</Link>
-                              <ul>
-                                <li> <Link to="#">Dropdown Menu level 2</Link></li>
-                                <li> <Link to="#">Dropdown Menu level 2</Link></li>
-                                <li> <Link to="#">Dropdown Menu Level 3</Link></li>
-                              </ul>
-                            </li>
-                            <li><Link to="#">Dropdown Lorem 5</Link></li>
-                          </ul> */}
-                        </li>
-                        <li><Link to="#">Blog</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                      </ul>
-                    </nav>
-                  </div>
-
-                </div>
-
-                <div className="link link-btn">
-                  <Link to="/reservation" className="theme-btn btn-style-one clearfix">
-                    <span className="btn-wrap">
-                      <span className="text-one">find a table</span>
-                      <span className="text-two">find a table</span>
-                    </span>
-                  </Link>
-                </div>
-
-              </div>
+          <div className="logo-box">
+            <div className="logo">
+              <Link to="/" title="OZLER DONER - OUR EYES ON YOUR ESSENCE">
+                <img src={logonew} alt="Delici-logo" title="OZLER DONER" style={{ maxHeight: '60px' }} />
+              </Link>
             </div>
           </div>
-        </header>
-      }
+
+          <div className="nav-box clearfix">
+            <div className="nav-outer clearfix">
+              <nav className="main-menu">
+                <ul className="navigation clearfix" style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                  {[
+                    { label: "Home", to: "/" },
+                    { label: "Menus", to: "/menu" },
+                    { label: "About Us", to: "/about" },
+                    { label: "Our chefs", to: "/ourchefs" },
+                    { label: "Pages", to: "/" },
+                    { label: "Blog", to: "#" },
+                    { label: "Contact", to: "/contact" },
+                  ].map(({ label, to }, i) => (
+                    <li key={i}>
+                      <Link to={to} style={{ color: '#ffffff', fontWeight: '600' }}>{label}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div className="link link-btn">
+            <Link to="/reservation" className="theme-btn btn-style-one clearfix" style={{
+              backgroundColor: '#ffffff',
+              color: '#48101a',
+              padding: '10px 24px',
+              borderRadius: '6px',
+              fontWeight: '600',
+              textTransform: 'uppercase',
+              letterSpacing: '1px',
+              boxShadow: '0 2px 10px rgba(0,0,0,0.1)'
+            }}>
+              <span className="btn-wrap">
+                <span className="text-one">find a table</span>
+                <span className="text-two">find a table</span>
+              </span>
+            </Link>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+}
+
     </>
   )
 }

@@ -20,7 +20,7 @@
 :root {
 
     /* #f25630 in decimal RGB */
-  --main-color: rgb(228,197,144);
+  --main-color: #48101a;
   
   /* #ffffff in decimal RGB */
   --white-color:rgb(255,255,255);
@@ -556,6 +556,7 @@ p{
     max-width:1200px;
     padding:0px 15px;
     margin:0 auto;
+    
 }
 
 ul,li{
