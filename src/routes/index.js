@@ -39,10 +39,10 @@ function Index() {
         <Route path="/" element={<Home />} />
         <Route path="/hometwo" element={<Hometwo />} />
         <Route path="/homethree" element={<Homethree />} />
-        <Route path="/menu" element={<Menu />} />
+        <Route path="/menu" element={<Menuthree />} />
         <Route path="/menuone" element={<Menuone />} />
         <Route path="/menutwo" element={<Menutwo />} />
-        <Route path="/menuthree" element={<Menuthree />} />
+        {/* <Route path="/menuthree" element={<Menuthree />} /> */}
         <Route path="/menufour" element={<Menufour />} />
         <Route path="/about" element={<About />} />
         <Route path="/ourchefs" element={<Chefs />} />

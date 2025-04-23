@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/images/resource/sidebar-logo.png'
-import logonew from '../../assets/images/logo2.png'
+import logonew from '../../assets/images/logo_header.png'
 import imgone from '../../assets/images/resource/menu-image-1.jpg'
 import imgtwo from '../../assets/images/resource/menu-image-2.jpg'
 import Imgthree from '../../assets/images/resource/menu-image-3.jpg'
@@ -72,15 +72,15 @@ function Main() {
 </div>
 
           <div className="side-menu">
-            <ul className="navigation clearfix">
-              <li className="current dropdown"><Link to="#" onClick={() => setShow(show === true ? false : true)}>Home<button type="button" className="btn-expander"></button></Link>   {/* <i className="far fa-angle-down"></i> */}
+            <ul className="navigation  clearfix">
+              <li className="current dropdown"><Link to="/" onClick={() => setShow(show === true ? false : true)}>Home<button type="button" className="btn-expander"></button></Link>   {/* <i className="far fa-angle-down"></i> */}
                 {/* <ul style={{ display: show ? "block" : "none" }}>
                   <li><Link to="/" onClick={() => setActive(false)}>Home 1 Left Header</Link></li>
                   <li><Link to="/hometwo" onClick={() => setActive(false)}>Home 1 Center Header</Link></li>
                   <li><Link to="/homethree" onClick={() => setActive(false)}>Home 3 Video Hero</Link></li>
                 </ul> */}
               </li>
-              <li className="dropdown"><Link to="#" onClick={() => setMenu(menu === true ? false : true)} >Menus<button type="button" className="btn-expander"></button></Link>  {/* <i className="far fa-angle-down"></i> */}
+              <li className="dropdown"><Link to="/menu" onClick={() => setMenu(menu === true ? false : true)} >Menus<button type="button" className="btn-expander"></button></Link>  {/* <i className="far fa-angle-down"></i> */}
 
                 {/* <ul style={{ display: menu ? "block" : "none" }}>
                   <li><Link to="/menuone" onClick={() => setActive(false)}>Menu List 1</Link></li>

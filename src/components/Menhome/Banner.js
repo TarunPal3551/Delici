@@ -66,22 +66,23 @@ function Banner() {
                 Come with family & feel the joy of mouthwatering food
               </div>
               <div className="links-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                <div className="link">
-                <Link to="#" className="theme-btn btn-style-two clearfix" style={{
-  backgroundColor: '#fff',
-  color: '#48101a',
-  border: '2px solid #48101a',
-  fontWeight: 'bold',
-  padding: '12px 24px',
-  borderRadius: '8px',
-  textShadow: '1px 1px 2px rgba(0,0,0,0.2)'
-}}>
-  <span className="btn-wrap">
-    <span className="text-one" style={{ color: '#48101a' }}>view our menu</span>
-    <span className="text-two" style={{ color: '#48101a' }}>view our menu</span>
-  </span>
-</Link>
-                </div>
+                 <div className="link link-btn">
+                            <Link to="/menu" className="theme-btn btn-style-one clearfix" style={{
+                              backgroundColor: '#ffffff',
+                              color: '#48101a',
+                              padding: '10px 24px',
+                              borderRadius: '6px',
+                              fontWeight: '600',
+                              textTransform: 'uppercase',
+                              letterSpacing: '1px',
+                              boxShadow: '0 2px 10px rgba(0,0,0,0.1)'
+                            }}>
+                              <span className="btn-wrap">
+                                <span className="text-one">View Our Menu</span>
+                                <span className="text-two">View Our Menu</span>
+                              </span>
+                            </Link>
+                          </div>
               </div>
             </div>
           </div>
