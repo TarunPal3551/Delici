@@ -35,7 +35,7 @@ function Listmenu() {
                 <div className="dish-block">
                   <div className="inner-box">
                     <div className="dish-image"><Link to="#"><img src={menuimg5} alt="" /></Link></div>
-                    <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Greek Salad</Link></h5></div><div className="price"><span>$25.50</span></div></div>
+                    <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Greek Salad</Link></h5></div><div className="price"><span>QAR 25.50</span></div></div>
                     <div className="text desc"><Link to="#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</Link></div>
                   </div>
                 </div>
@@ -43,7 +43,7 @@ function Listmenu() {
                 <div className="dish-block">
                   <div className="inner-box">
                     <div className="dish-image"><Link to="#"><img src={menuimg6} alt="" /></Link></div>
-                    <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Lasagne <span className="s-info">SEASONAL</span></Link></h5></div><div className="price"><span>$40.00</span></div></div>
+                    <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Lasagne <span className="s-info">SEASONAL</span></Link></h5></div><div className="price"><span>QAR 40.00</span></div></div>
                     <div className="text desc"><Link to="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</Link></div>
                   </div>
                 </div>
@@ -51,7 +51,7 @@ function Listmenu() {
                 <div className="dish-block">
                   <div className="inner-box">
                     <div className="dish-image"><Link to="#"><img src={menuimg7} alt="" /></Link></div>
-                    <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Butternut Pumpkin</Link></h5></div><div className="price"><span>$10.00</span></div></div>
+                    <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Butternut Pumpkin</Link></h5></div><div className="price"><span>QAR 10.00</span></div></div>
                     <div className="text desc"><Link to="#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</Link></div>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ function Listmenu() {
                 <div className="dish-block">
                   <div className="inner-box">
                     <div className="dish-image"><Link to="#"><img src={menuimg8} alt="" /></Link></div>
-                    <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Tokusen Wagyu <span className="s-info">NEW</span></Link></h5></div><div className="price"><span>$39.00</span></div></div>
+                    <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Tokusen Wagyu <span className="s-info">NEW</span></Link></h5></div><div className="price"><span>QAR 39.00</span></div></div>
                     <div className="text desc"><Link to="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</Link></div>
                   </div>
                 </div>
@@ -71,7 +71,7 @@ function Listmenu() {
                 <div className="dish-block">
                   <div className="inner-box">
                     <div className="dish-image"><Link to="#"><img src={menuimg9} alt="" /></Link></div>
-                    <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Olivas Rellenas</Link></h5></div><div className="price"><span>$25.00</span></div></div>
+                    <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Olivas Rellenas</Link></h5></div><div className="price"><span>QAR 25.00</span></div></div>
                     <div className="text desc"><Link to="#">Avocados with crab meat, red onion, crab salad stuffed red bell pepper and  green bell pepper.</Link></div>
                   </div>
                 </div>
@@ -79,7 +79,7 @@ function Listmenu() {
                 <div className="dish-block">
                   <div className="inner-box">
                     <div className="dish-image"><Link to="#"><img src={menuimg10} alt="" /></Link></div>
-                    <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Opu Fish</Link></h5></div><div className="price"><span>$49.00</span></div></div>
+                    <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Opu Fish</Link></h5></div><div className="price"><span>QAR 49.00</span></div></div>
                     <div className="text desc"><Link to="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</Link></div>
                   </div>
                 </div>

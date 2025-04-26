@@ -43,7 +43,7 @@ function Appetizers() {
                         </h5>
                       </div>
                       <div className="price">
-                        <span>$25.50</span>
+                        <span>QAR 25.50</span>
                       </div>
                     </div>
                     <div className="text desc">
@@ -71,7 +71,7 @@ function Appetizers() {
                         </h5>
                       </div>
                       <div className="price">
-                        <span>$40.00</span>
+                        <span>QAR 40.00</span>
                       </div>
                     </div>
                     <div className="text desc">
@@ -97,7 +97,7 @@ function Appetizers() {
                         </h5>
                       </div>
                       <div className="price">
-                        <span>$10.00</span>
+                        <span>QAR 10.00</span>
                       </div>
                     </div>
                     <div className="text desc">
@@ -129,7 +129,7 @@ function Appetizers() {
                         </h5>
                       </div>
                       <div className="price">
-                        <span>$39.00</span>
+                        <span>QAR 39.00</span>
                       </div>
                     </div>
                     <div className="text desc">
@@ -155,7 +155,7 @@ function Appetizers() {
                         </h5>
                       </div>
                       <div className="price">
-                        <span>$25.00</span>
+                        <span>QAR 25.00</span>
                       </div>
                     </div>
                     <div className="text desc">
@@ -181,7 +181,7 @@ function Appetizers() {
                         </h5>
                       </div>
                       <div className="price">
-                        <span>$49.00</span>
+                        <span>QAR 49.00</span>
                       </div>
                     </div>
                     <div className="text desc">
@@ -229,7 +229,7 @@ function Appetizers() {
                         </h5>
                       </div>
                       <div className="price">
-                        <span>$25.50</span>
+                        <span>QAR 25.50</span>
                       </div>
                     </div>
                     <div className="text desc">
@@ -257,7 +257,7 @@ function Appetizers() {
                         </h5>
                       </div>
                       <div className="price">
-                        <span>$40.00</span>
+                        <span>QAR 40.00</span>
                       </div>
                     </div>
                     <div className="text desc">
@@ -283,7 +283,7 @@ function Appetizers() {
                         </h5>
                       </div>
                       <div className="price">
-                        <span>$10.00</span>
+                        <span>QAR 10.00</span>
                       </div>
                     </div>
                     <div className="text desc">
@@ -315,7 +315,7 @@ function Appetizers() {
                         </h5>
                       </div>
                       <div className="price">
-                        <span>$39.00</span>
+                        <span>QAR 39.00</span>
                       </div>
                     </div>
                     <div className="text desc">
@@ -341,7 +341,7 @@ function Appetizers() {
                         </h5>
                       </div>
                       <div className="price">
-                        <span>$25.00</span>
+                        <span>QAR 25.00</span>
                       </div>
                     </div>
                     <div className="text desc">
@@ -367,7 +367,7 @@ function Appetizers() {
                         </h5>
                       </div>
                       <div className="price">
-                        <span>$49.00</span>
+                        <span>QAR 49.00</span>
                       </div>
                     </div>
                     <div className="text desc">

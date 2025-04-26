@@ -72,7 +72,7 @@ function Main() {
                 <Link to="/about">About Us</Link>
               </li>
               <li>
-                <Link to="/ourchefs">Our chefs</Link>
+                <Link to="/ourchefs">Our Chefs</Link>
               </li>
               <li className="dropdown">
                 <Link to="#">Pages</Link>

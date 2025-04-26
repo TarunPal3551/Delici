@@ -81,7 +81,7 @@ function Special() {
                     <Link to="#">Greek Salad</Link>
                   </h4>
                   <div className="text desc">Avocados with crab meat, red onion, crab salad red bell pepper...</div>
-                  <div className="price">$39.00</div>
+                  <div className="price">QAR 39.00</div>
                 </div>
               </SwiperSlide>
 
@@ -96,7 +96,7 @@ function Special() {
                     <Link to="#">Tokusen Wagyu</Link>
                   </h4>
                   <div className="text desc">Tomatoes, green bell pepper, sliced cucumber onion, olives...</div>
-                  <div className="price">$45.00</div>
+                  <div className="price">QAR 45.00</div>
                 </div>
               </SwiperSlide>
 
@@ -111,7 +111,7 @@ function Special() {
                     <Link to="#">Butternut Pumpkin</Link>
                   </h4>
                   <div className="text desc">Avocados with crab meat, red onion, crab salad stuffed bell pepper...</div>
-                  <div className="price">$15.00</div>
+                  <div className="price">QAR 15.00</div>
                 </div>
               </SwiperSlide>
 
@@ -126,7 +126,7 @@ function Special() {
                     <Link to="#">Opu Fish</Link>
                   </h4>
                   <div className="text desc">Vegetables, cheeses, ground meats, tomato sauce, seasonings...</div>
-                  <div className="price">$12.00</div>
+                  <div className="price">QAR 12.00</div>
                 </div>
               </SwiperSlide>
             </Swiper>
